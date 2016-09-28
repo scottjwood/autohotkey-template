@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 /*
 This shortcut toggles the currently selected window to always
 be on top of other windows. Helpful with tutorials.
-#+Ctrl-A: Toggle window always on top
+WindowKey+Ctrl-A: Toggle window always on top
 */
 
 #^a::
@@ -64,6 +64,7 @@ using :*: is instant
 
 ;-------------------------------------------------------------------------------
 ; Application launcher
+; Note: "#" is the WindowsKey
 ;-------------------------------------------------------------------------------
 #x::Run C:\Program Files\MAXON\CINEMA 4D R17\CINEMA 4D.exe
 #b::Run C:\Program Files\Blender Foundation\Blender\blender.exe
